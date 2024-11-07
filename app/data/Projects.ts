@@ -2,9 +2,9 @@ import { Project } from "../type/Project";
 
 export const projects: Project[] = [
     {
-        title: "Prestigious: E-commerce website",
+        title: "Prestigious: E-commerce Store",
         description: [
-            "An e-commerce website to sell jewelries and accessories, this application based on MERN stack technologies."
+            "An e-commerce platform for jewelry and accessories, built with the MERN stack. It features detailed product listings, a smooth shopping cart experience, and Stripe payment integration for seamless transactions."
         ],
         technologies: ["React.Js", "Node.Js", "JavaScript", "Tailwind CSS", "Express.Js", "MongoDB", "Redux Toolkit"],
         links: [

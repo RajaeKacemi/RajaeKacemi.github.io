@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Rajaa Kacemi",
-  description: "Rajaa portfolio's",
+  description: "Full stack developer",
   icons: {
     icon: "/favicon.ico",
   },
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/png" href="/static/favicons/favicon.ico" />
+      <link rel="icon" type="image/png" href="/favicons/favicon.ico" />
       <body
         className={`mx-auto flex min-h-screen max-w-3xl flex-col px-8 ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
